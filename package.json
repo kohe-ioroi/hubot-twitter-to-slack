@@ -1,0 +1,28 @@
+{
+  "name": "hubot-twitter-to-slack",
+  "version": "0.0.1",
+  "description": "it sends the search results of twitter to slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DEPUTTYO/hubot-twitter-to-slack.git"
+  },
+  "keywords": [
+    "twitter",
+    "slack"
+  ],
+  "author": "DEPUTTYO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEPUTTYO/hubot-twitter-to-slack/issues"
+  },
+  "homepage": "https://github.com/DEPUTTYO/hubot-twitter-to-slack",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "hubot": "^2.18.0",
+    "twit": "^2.2.3"
+  }
+}
