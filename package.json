@@ -1,6 +1,6 @@
 {
   "name": "hubot-twitter-to-slack",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "it sends the search results of twitter to slack.",
   "main": "index.coffee",
   "scripts": {

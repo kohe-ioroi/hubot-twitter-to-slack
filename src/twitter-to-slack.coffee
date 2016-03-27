@@ -62,6 +62,7 @@ module.exports = (robot) ->
           addMessage(message)
         )
       else
+        since_id = getSinceId()
         console.log "nothing tweet since since_id:#{since_id}"
 
     ).fail((err) ->
@@ -72,7 +73,7 @@ module.exports = (robot) ->
 #######################################################
 #                      do                             #
 #######################################################
-  setTimeout (->
+  setInterval (->
       twitterSearchStart(robot)
   ), 1000 * 60 * 2
 
