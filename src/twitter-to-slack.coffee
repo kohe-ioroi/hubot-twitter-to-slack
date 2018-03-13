@@ -51,7 +51,7 @@ module.exports = (robot) ->
         dfd.reject(err)
         return
       dfd.resolve(data)
-    return dfd.promise;
+    return dfd.promise
 
   twitterSearchStart = (robot) ->
     getTweet().then((data) ->
